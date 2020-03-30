@@ -4,8 +4,8 @@ The provided code is part of the TAURUS EXPLORER product (https://www.taurusgrou
 
 It monitors the Tezos blockchain and store relevant transactions in a datastore.
 It contains the following packages:
-* `client`: handle the interactions with the Tezos node.
-* `job`: jobs that are scheduled periodically. The `block-fetcher` fetches and processes new Tezos blocks and the `broadcaster` job manages reliable broadcast.
+* `client`: handle the interactions with a Tezos node.
+* `job`: jobs that are scheduled periodically. The `block-fetcher` fetches and processes new Tezos blocks and the `broadcaster` job handles reliable broadcast.
 * `model`: data model.
 * `store`: datastore.
 
